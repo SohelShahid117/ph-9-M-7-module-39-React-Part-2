@@ -7,10 +7,14 @@ export default function Frnd({frind}){
         padding :'20px',
         borderRadius : '10px'
     }
-    const {email,id,name}=frind;
+    const {email,id,name,address}=frind;
     // console.log(id);
     // console.log(email);
     // console.log(name);
+    // console.log(address);
+    const {city,street} = address;
+    // console.log(city)
+    // console.log(street)
     return(
         <div style={brdrStyle}>
             {/* <h4>ID:{frind.id}</h4>
@@ -23,6 +27,7 @@ export default function Frnd({frind}){
             <h2>Name:{name}</h2>
             {/* <h4>Title:{title}</h4> */}
             <h4>Email:{email}</h4>
+            <h3>City:{city}</h3>
 
             {/* <h4>city:{frind.address.city}</h4> */}
         </div>

@@ -3,6 +3,7 @@ import Counter from './Counter'
 import Team from './Team'
 import Users from './Users'
 import Friends from './Friends'
+import Post from './Post'
 
 function App() {
   function handleClick(){
@@ -18,7 +19,12 @@ function App() {
 
   return (
     <>
-      <h1>React</h1>
+      <h1>React Core Concepts</h1>
+      <h5>39-7 (Recap) Core Concepts Components, State, UseEffect</h5>
+      <ol>
+        <li>Components</li>
+      </ol>
+      <Post></Post>
       <h2>39-1 Module Introduction And Vite Project Overview</h2>
       <h3>39-2 Different Way To Handle Events In React</h3>
       <button onClick={handleClick} >Click Me</button>
