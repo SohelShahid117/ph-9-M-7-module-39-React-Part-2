@@ -32,4 +32,5 @@ export default function Users(){
 2.useEffect with callback & dependency array
 3.use fetch to load data
 4.set loaded data to the state
+5.display data on the component
 */
