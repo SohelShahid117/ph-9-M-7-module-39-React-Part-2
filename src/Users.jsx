@@ -30,6 +30,6 @@ export default function Users(){
 /*
 1.declare a state to hold the data
 2.useEffect with callback & dependency array
-3.
-
+3.use fetch to load data
+4.set loaded data to the state
 */
